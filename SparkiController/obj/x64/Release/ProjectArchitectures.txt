@@ -1,1 +1,0 @@
-C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\SparkiController.csproj;x64

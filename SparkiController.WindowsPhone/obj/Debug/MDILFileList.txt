@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Files>
-  <file>\TCD.Controls.dll</file>
-  <file>\SparkiController.exe</file>
-</Files>

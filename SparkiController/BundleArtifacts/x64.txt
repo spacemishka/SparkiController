@@ -1,3 +1,0 @@
-MainPackage=C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\bin\x64\Release\SparkiController_1.1.0.13_x64.appx
-SymbolPackage=C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\AppPackages\SparkiController_1.1.0.13_Test\SparkiController_1.1.0.13_x64.appxsym
-ResourcePack=C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\bin\x64\Release\SparkiController_1.1.0.13_scale-180.appx

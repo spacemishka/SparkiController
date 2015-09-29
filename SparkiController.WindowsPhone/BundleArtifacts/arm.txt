@@ -1,3 +1,0 @@
-MainPackage=C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController.WindowsPhone\bin\ARM\Release\SparkiController.WindowsPhone_1.1.0.17_ARM.appx
-SymbolPackage=C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController.WindowsPhone\AppPackages\SparkiController.WindowsPhone_1.1.0.17_Test\SparkiController.WindowsPhone_1.1.0.17_ARM.appxsym
-ResourcePack=C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController.WindowsPhone\bin\ARM\Release\SparkiController.WindowsPhone_1.1.0.17_scale-100.appx
