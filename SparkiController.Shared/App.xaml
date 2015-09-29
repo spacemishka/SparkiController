@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="SparkiController.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SparkiController"
+    xmlns:tcd="using:TCD.Arduino.Bluetooth"
+    xmlns:bluetooth="using:TCD.Arduino.Bluetooth"
+    xmlns:bluetoothCommunicationSampleController="using:SparkiController"
+    xmlns:sparkiComController="using:SparkiComController">
+    <Application.Resources>
+        <!--a BluetoothConnectionManager and a UIConverter, available everywhere within this app-->
+        <bluetooth:BluetoothConnectionManager x:Key="BluetoothManager" />
+        <sparkiComController:UiConverter x:Key="UiConverter" />
+    </Application.Resources>
+</Application>
