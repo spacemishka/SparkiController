@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="SparkiController.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SparkiController"
+    xmlns:tcd="using:TCD.Arduino.Bluetooth"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!--the StackPanel below contains the Connect/Cancel/Disconnect Buttons. They are bound to the BluetoothManager and use the UIConverter to enable/disable-->
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" DataContext="{StaticResource BluetoothManager}">
+                    <TextBlock Text="SparkiController" Style="{StaticResource SubheaderTextBlockStyle}" Margin="0,0,0,10" />
+                    <ProgressRing IsActive="{Binding State, Converter={StaticResource UiConverter}, ConverterParameter=BluetoothInProgress}" Margin="10" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" DataContext="{StaticResource BluetoothManager}">
+                    <Button Content="Connect" IsEnabled="{Binding State, Converter={StaticResource UiConverter}, ConverterParameter=BluetoothConnect}" Width="100" Click="BluetoothConnect_Click" />
+                    <Button Content="Cancel" Command="{Binding BluetoothCancelCommand}" IsEnabled="{Binding State, Converter={StaticResource UiConverter}, ConverterParameter=BluetoothConnecting}" Width="100" />
+                    <Button Content="Disconnect" Command="{Binding BluetoothDisconnectCommand}" IsEnabled="{Binding State, Converter={StaticResource UiConverter}, ConverterParameter=BluetoothDisconnect}" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="GreenButton" Click="LEDButton_Click" Content="Green" Width="100" Tag="A" Background="#FF408B01" />
+                    <Button x:Name="RedButton" Click="LEDButton_Click" Content="Red" Width="100" Tag="B" Background="#FFCD1212" />
+                    <Button x:Name="BlueButton" Click="LEDButton_Click" Content="Blue" Width="100" Tag="C" Background="#FF0168CF" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="3" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="OffButton" Click="LEDButton_Click" Content="Off" Width="100" Tag="M" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Motion and Operations" HorizontalAlignment="Stretch" TextAlignment="Center" FontSize="20">
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="4" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="GripcButton" Click="LEDButton_Click" Content="" Width="100" Tag="J" Background="#FFCFC60E"/>
+                    <Button x:Name="ForwardButton" Click="LEDButton_Click" Content="Forward" Width="100" Tag="D" Background="#FF405CDA" />
+                    <Button x:Name="GripoButton" Click="LEDButton_Click" Content="" Width="100" Tag="I" Background="#FFCFC60E" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="5" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="LeftButton" Click="LEDButton_Click" Content="Left" Width="100" Tag="E" Background="#FF405CDA" />
+                    <Button x:Name="StopButton" Click="LEDButton_Click" Content="Stop" Width="100" Tag="K" />
+                    <Button x:Name="RightButton" Click="LEDButton_Click" Content="Right" Width="100" Tag="F" Background="#FF405CDA" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="6" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="BeepButton" Click="LEDButton_Click" Content="Beep" Width="100" Tag="H" Background="#FF95E238"/>
+                    <Button x:Name="BackwardButton" Click="LEDButton_Click" Content="Back" Width="100" Tag="G" Background="#FF405CDA" />
+                    <Button x:Name="MusicButton" Click="LEDButton_Click" Content="Music" Width="100" Tag="L" Background="#FF95E238" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Sonic" HorizontalAlignment="Stretch" TextAlignment="Center" FontSize="20">
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="7" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="SonicLeftHalfButton" Click="LEDButton_Click" Content="((0))-40" Width="100" Tag="N" />
+                    <Button x:Name="SonicCenterButton" Click="LEDButton_Click" Content="((0))" Width="100" Tag="O" />
+                    <Button x:Name="SonicRightHalfButton" Click="LEDButton_Click" Content="((0))+40" Width="100" Tag="P" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="8" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="SonicLeftButton" Click="LEDButton_Click" Content="((0))-85" Width="100" Tag="Q" />
+                    <Button x:Name="SoniCcheckButton" Click="LEDButton_Click" Content="((0))=?" Width="100" Tag="R" />
+                    <Button x:Name="SonicRightButton" Click="LEDButton_Click" Content="((0))+85" Width="100" Tag="S" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="9" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="SonicTurnLeftButton" Click="LEDButton_Click" Content="" Width="100" Tag="T" />
+                    
+                    <Button x:Name="SonicTurnRightButton" Click="LEDButton_Click" Content="" Width="100" Tag="U" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

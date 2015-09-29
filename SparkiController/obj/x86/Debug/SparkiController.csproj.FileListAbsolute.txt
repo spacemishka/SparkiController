@@ -1,0 +1,11 @@
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\SparkiController.csprojResolveAssemblyReference.cache
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\App.g.i.cs
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\App.g.cs
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\MainPage.g.cs
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\App.xaml
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\MainPage.xaml
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\App.xbf
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\MainPage.xbf
+C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x86\Debug\XamlSaveStateFile.xml

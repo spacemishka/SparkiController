@@ -1,0 +1,21 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-100"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\filemap.pri"			"resources.pri"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\TCD.Controls.dll"			"TCD.Controls.dll"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\SparkiController.xr.xml"			"SparkiController.xr.xml"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\SparkiController.exe"			"SparkiController.exe"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\App.xbf"			"App.xbf"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\TCD.Controls\TCD.Controls.xr.xml"			"TCD.Controls\TCD.Controls.xr.xml"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\TCD.Controls\ResourceHoldingUserControl.xbf"			"TCD.Controls\ResourceHoldingUserControl.xbf"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\TCD.Controls\LabeledProgressBar.xbf"			"TCD.Controls\LabeledProgressBar.xbf"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\Square70x70Logo.scale-100.png"			"Assets\Square70x70Logo.scale-100.png"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\SplashScreen.scale-100.png"			"Assets\SplashScreen.scale-100.png"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\SmallLogo.scale-100.png"			"Assets\SmallLogo.scale-100.png"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\LogoWide310.scale-100.png"			"Assets\LogoWide310.scale-100.png"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\Logo310.scale-100.png"			"Assets\Logo310.scale-100.png"
+"C:\Users\klofisch\Documents\Visual Studio 2015\Projects\BtExample\SparkiController\obj\x64\Release\PackageLayout\Assets\Logo.scale-100.png"			"Assets\Logo.scale-100.png"

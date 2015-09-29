@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="34505spacemishka.SparkiController" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://34505spacemishka.SparkiController/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://34505spacemishka.SparkiController/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SparkiController.xr.xml" uri="ms-resource://34505spacemishka.SparkiController/Files/SparkiController.xr.xml">
+				<Candidate type="Path">
+					<Value>SparkiController.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo310.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/Logo310.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo310.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LogoWide310.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/LogoWide310.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\LogoWide310.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/Square70x70Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square70x70Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://34505spacemishka.SparkiController/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TCD.Controls">
+				<NamedResource name="LabeledProgressBar.xbf" uri="ms-resource://34505spacemishka.SparkiController/Files/TCD.Controls/LabeledProgressBar.xbf">
+					<Candidate type="Path">
+						<Value>TCD.Controls\LabeledProgressBar.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResourceHoldingUserControl.xbf" uri="ms-resource://34505spacemishka.SparkiController/Files/TCD.Controls/ResourceHoldingUserControl.xbf">
+					<Candidate type="Path">
+						<Value>TCD.Controls\ResourceHoldingUserControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TCD.Controls.xr.xml" uri="ms-resource://34505spacemishka.SparkiController/Files/TCD.Controls/TCD.Controls.xr.xml">
+					<Candidate type="Path">
+						<Value>TCD.Controls\TCD.Controls.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

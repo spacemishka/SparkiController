@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KLOFISCH-81</Machine>
+    <WindowsUser>Peter</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1b2dd8e5-77f9-4ae9-8683-c4e46a492b0f</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>D81DEE4E9A3D4BA2FCF2BCDA40D3F4DF8386DC7A7EC2C84DE38C05FDE9BE7D6B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1b2dd8e5-77f9-4ae9-8683-c4e46a492b0f_1.0.0.0_neutral__tp1tpcm9wdwpy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1b2dd8e5-77f9-4ae9-8683-c4e46a492b0f_tp1tpcm9wdwpy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1b2dd8e5-77f9-4ae9-8683-c4e46a492b0f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Peter</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-05T16:48:25.404</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\bin\Debug\BluetoothCommunicationSampleController.exe">
+      <PackagePath>BluetoothCommunicationSampleController.exe</PackagePath>
+      <Modified>2015-09-05T16:48:25.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls.dll">
+      <PackagePath>TCD.Controls.dll</PackagePath>
+      <Modified>2014-11-13T11:24:19.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T11:24:19.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T11:24:19.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T11:24:19.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T11:24:19.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\bin\Debug\BluetoothCommunicationSampleController.xr.xml">
+      <PackagePath>BluetoothCommunicationSampleController.xr.xml</PackagePath>
+      <Modified>2015-09-05T16:38:45.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-09-05T16:48:25.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-09-05T16:48:25.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls\LabeledProgressBar.xbf">
+      <PackagePath>TCD.Controls\LabeledProgressBar.xbf</PackagePath>
+      <Modified>2014-11-13T11:24:19.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls\ResourceHoldingUserControl.xbf">
+      <PackagePath>TCD.Controls\ResourceHoldingUserControl.xbf</PackagePath>
+      <Modified>2014-11-13T11:24:19.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\packages\TCD.Controls.3.0.1\lib\netcore451\TCD.Controls\TCD.Controls.xr.xml">
+      <PackagePath>TCD.Controls\TCD.Controls.xr.xml</PackagePath>
+      <Modified>2014-11-13T11:24:19.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Peter\Documents\Visual Studio 2015\Projects\BtExample\BluetoothCommunicationSampleController\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-05T16:48:25.359</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
